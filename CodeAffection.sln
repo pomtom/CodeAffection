@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeAffection", "CodeAffection\CodeAffection.csproj", "{104EC0C3-CD84-46B5-8E47-D77B5F12C011}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{104EC0C3-CD84-46B5-8E47-D77B5F12C011}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{104EC0C3-CD84-46B5-8E47-D77B5F12C011}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{104EC0C3-CD84-46B5-8E47-D77B5F12C011}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{104EC0C3-CD84-46B5-8E47-D77B5F12C011}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {70E0C836-71DB-4044-A717-2DD9DB3BA8BC}
+	EndGlobalSection
+EndGlobal
