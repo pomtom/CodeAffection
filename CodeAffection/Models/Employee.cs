@@ -25,6 +25,6 @@ namespace CodeAffection.Models
         [Required(ErrorMessage = "Employee BirthDate is required.")]
         [Column("BirthDate")]
         [DisplayFormat(DataFormatString = "{0:dd-MMM-yyyy}")]
-        public DateOnly BirthDate { get; set; }
+        public DateTime BirthDate { get; set; }
     }
 }
