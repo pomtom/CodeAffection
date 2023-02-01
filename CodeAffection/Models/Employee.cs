@@ -6,7 +6,7 @@ namespace CodeAffection.Models
 {
     public class Employee
     {
-        [Key()]
+        [Key]
         public int Id { get; set; }
 
         [Required(ErrorMessage = "Employee name is required.")]
@@ -15,11 +15,11 @@ namespace CodeAffection.Models
         public string Name { get; set; }
 
         [Required(ErrorMessage = "Employee city is required.")]
+        [Column(TypeName = "nvarchar(100)")]
         public string City { get; set; }
 
         [Required(ErrorMessage = "Employee phone is required.")]
         [DisplayName("Phone")]
-        [MaxLength(10, ErrorMessage = "Maximum 10 characters only.")]
         public int Phone { get; set; }
 
         [Required(ErrorMessage = "Employee BirthDate is required.")]
